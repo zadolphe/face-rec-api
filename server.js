@@ -22,7 +22,7 @@ app.use(express.json()); // latest version of exressJS now comes with Body-Parse
 
 
 app.get('/', (req, res)=> {
-  res.send(database.users);
+  res.send("this means it is working using get a root");
 })
 
 app.post('/signin', (req, res) => {
